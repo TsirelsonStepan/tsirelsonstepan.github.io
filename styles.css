@@ -1,8 +1,18 @@
-p
+body
 {
-    color: red;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    gap: 10px;
 }
-a
+h1
 {
-    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dotted red;
 }
